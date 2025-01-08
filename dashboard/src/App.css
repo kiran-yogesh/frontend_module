@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tajawal", serif;
+}
+.navbar{
+    background: linear-gradient(-45deg,#35A7FF,#38618C,#FFFFFF,#FF5964,#FFE74C);
+    background-size: 400% 400%;
+    animation: abg 7s infinite ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    padding: 0 20px;
+    border: 2px solid black;
+    border-radius: 1vh;
+    align-items: center;
+}
+@keyframes abg {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.company{
+   
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.5pc;
+}
+.company:hover{
+    cursor: pointer;
+    color: white;  
+}
+.userauth{
+    
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.5pc;
+}
+.userauth:hover{
+    cursor: pointer;
+    color: white;  
+}
+.sidebars{
+    margin:0;
+    background: linear-gradient(-45deg,#FF9B42,#F7A072,#EDDEA4,#00A7E1,#D9E5D6);
+    background-size: 400% 400%;
+    animation: bg 4s ease infinite;
+    border: 2px solid white;
+    width: 13%;
+    height: 80vh;
+    font-family: "Roboto Slab", serif;
+    color: black;
+}
+@keyframes bg {
+    0%{
+        background-position:0% 50%;
+    }
+    50%{
+        background-position:100% 50%;
+    }
+    100%{
+        background-position:0% 50%;
+    }
+}
+.sidebars ul li{
+    list-style: none;
+    margin-bottom: 35px;
+    font-weight: 800;
+}
+.sidebars ul li:hover{
+ cursor: pointer;
+ color: white;
+}
+.collectingsecton{
+    display: flex;
+}
+.loginsection{
+    
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logform{
+    background:linear-gradient(to top left,violet,lawngreen,darkgoldenrod,white);
+    background-size: 400% 400%;
+    animation: animation 3s infinite ease-in;
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: black;
+   
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes animation {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.logform input{
+    width: 100%;
+    max-width: 45%;
+    height: 1.5rem;
+}
+.sublog{
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.sublog button:hover{
+    background-color: red;
+    color: white;
+    
+}
+.registersection{
+    
+    width: 77%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.regform{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.regform input{
+    width: 100%;
+    max-width: 45%;
+    height: 1.5rem;
+}
+.regform label{
+    width: 100%;
+    max-width: 45%;
+}
+.firmsection{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firmform{
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.subregs{
+    margin-bottom: 10px;
+}
+.subregs button:hover{
+    background-color: black;
+    color: white;
+}
+.firmform input{
+    width: 100%;
+    max-width: 45%;
+    height: 1.5rem;
+    border-radius: 5px;
+}
+.firmform label{
+    font-size: large;
+    width: 100%;
+    max-width: 45%;
+}
+.checkinput{
+    display: flex;
+    width: 100%;
+    max-width: 25%;
+    border: 2px solid black;
+    
+}
+.checkreg{
+    display: flex;
+}
+.checkreg2{
+    display: flex;
+    width: 100%;
+    max-width: 37%;
+}
+.productsection{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productform{
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.subreg{
+    margin-bottom: 10px;
+}
+.subreg button:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color:#FFFFFF;
+}
+.productform input{
+    width: 100%;
+    max-width: 85%;
+    height: 39px;
+    border-radius: 2px;
+}
+.productform label{
+    font-size: larger;
+    width: 100%;
+    max-width: 86%;
+}
+.prodcheck{
+    display: flex;
+    width: 100%;
+    max-width: 35%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.prodcheck2{
+    display: flex;
+    width: 100%;
+    max-width: 35%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.table{
+    width: 40vw;
+    border: 2px solid black;
+    
+}
+table th,td{
+    text-align: left;
+    border-collapse: collapse;
+    border: 2px solid grey;
+}
+table th{
+    border: 2px solid grey;
+    padding: 7px;
+}
+.errorSection{
+    margin-left: 45pc;
+    margin-top: 15pc;
+    font-size: 1.5pc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
