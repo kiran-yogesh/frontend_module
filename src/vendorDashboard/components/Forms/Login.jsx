@@ -35,7 +35,7 @@ const Login = ({ showWelcomehandle }) => {
       setPassword('');
       alert('Vendor login success');
       showWelcomehandle();
-      window.location.reload();
+      
 
       // Fetch vendor details
       if (vendorId) {
@@ -51,7 +51,7 @@ const Login = ({ showWelcomehandle }) => {
           const vendorFirmid = vendorData.vendorFirmid;
           console.log('Vendor Firm ID:', vendorFirmid);
           localStorage.setItem('firmIds', vendorFirmid);
-          window.location.reload();
+          
           // Navigate to another page or update UI instead of reloading
         } else {
           setErrorMessage(vendorData.message || 'Failed to fetch vendor details.');
