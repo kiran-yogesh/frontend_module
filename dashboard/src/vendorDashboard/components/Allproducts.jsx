@@ -36,7 +36,7 @@ const Allproducts = () => {
     }
   return (
     <div>
-      { !products ?(
+      { products.length == 0 ?(
         <p>no products added</p>
       ) : (<table className='table'>
            <thead>
