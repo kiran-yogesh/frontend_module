@@ -35,7 +35,7 @@ const Login = ({ showWelcomehandle }) => {
       setPassword('');
       alert('Vendor login success');
       showWelcomehandle();
-      
+      window.location.reload();
 
       // Fetch vendor details
       if (vendorId) {
