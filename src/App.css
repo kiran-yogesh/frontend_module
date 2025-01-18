@@ -258,7 +258,7 @@
     border-radius: 5px;
 }
 .table{
-    width: 40vw;
+    width: 120vh;
     border: 2px solid black;
     
 }
@@ -268,8 +268,11 @@ table th,td{
     border: 2px solid grey;
 }
 table th{
-    border: 2px solid grey;
+    font-size: 25px;
     padding: 7px;
+}
+table td{
+    font-size: 20px;
 }
 .errorSection{
     margin-left: 45pc;
