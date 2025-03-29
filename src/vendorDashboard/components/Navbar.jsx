@@ -5,7 +5,7 @@ const Navbar = ({showLoginhandle,showRegisterhandle,showlogOut,logOuthandle}) =>
   return ( 
     <div class="navbar">
         <div className="company">
-           vendor dashboard
+           user dashboard
         </div> 
         <div className="userauth">
           {!showlogOut ? <>
