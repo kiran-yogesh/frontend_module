@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import { API_URL } from '../data/Apipath';
+import { API_URL } from '../data/Apipath.js';
 
 
 const Allproducts = () => {

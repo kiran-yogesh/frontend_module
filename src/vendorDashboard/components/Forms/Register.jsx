@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { API_URL } from '../../data/Apipath';
+import { API_URL } from '../../data/Apipath.js';
 
 const Register = ({showLoginhandle}) => {
   const [username,setUsername]=useState("");
