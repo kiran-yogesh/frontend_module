@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import { API_URL } from '../../data/Apipath.js';
+import { API_URL } from '../../data/Apipath';
 
 const Addfirm = () => {
   const [firmname,setFirmname]=useState("");
