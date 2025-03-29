@@ -6,9 +6,9 @@
     font-family: "Tajawal", serif;
 }
 .navbar{
-    background: linear-gradient(-45deg,#35A7FF,#38618C,#FFFFFF,#FF5964,#FFE74C);
+    background-color: #DABFFF;
     background-size: 400% 400%;
-    animation: abg 7s infinite ease-in-out;
+    margin: 0;
     display: flex;
     justify-content: space-between;
     height: 20vh;
@@ -16,17 +16,6 @@
     border: 2px solid black;
     border-radius: 1vh;
     align-items: center;
-}
-@keyframes abg {
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
 }
 .company{
    
@@ -52,26 +41,16 @@
 }
 .sidebars{
     margin:0;
-    background: linear-gradient(-45deg,#FF9B42,#F7A072,#EDDEA4,#00A7E1,#D9E5D6);
+    background-color: #7FDEFF;
     background-size: 400% 400%;
-    animation: bg 4s ease infinite;
+   
     border: 2px solid white;
     width: 13%;
     height: 80vh;
     font-family: "Roboto Slab", serif;
     color: black;
 }
-@keyframes bg {
-    0%{
-        background-position:0% 50%;
-    }
-    50%{
-        background-position:100% 50%;
-    }
-    100%{
-        background-position:0% 50%;
-    }
-}
+
 .sidebars ul li{
     list-style: none;
     margin-bottom: 35px;
@@ -139,6 +118,7 @@
     align-items: center;
 }
 .regform{
+    background: linear-gradient(to top left,#759AAB,#FAF2A1);
     border: 2px solid black;
     border-radius: 10px;
     width: 100%;
@@ -156,6 +136,13 @@
 .regform label{
     width: 100%;
     max-width: 45%;
+}
+.sub{
+    padding-bottom: 10px;
+}
+.sub button:hover{
+    background-color: red;
+    color: white;
 }
 .firmsection{
     
@@ -258,7 +245,7 @@
     border-radius: 5px;
 }
 .table{
-    width: 40vw;
+    width: 130vh;
     border: 2px solid black;
     
 }
@@ -268,8 +255,11 @@ table th,td{
     border: 2px solid grey;
 }
 table th{
-    border: 2px solid grey;
+    font-size: 25px;
     padding: 7px;
+}
+table td{
+    font-size: 20px;
 }
 .errorSection{
     margin-left: 45pc;

@@ -33,9 +33,9 @@ const Login = ({ showWelcomehandle }) => {
       localStorage.setItem('logintoken', token);
       setEmail('');
       setPassword('');
-      alert('Vendor login success');
+      alert('login sucessfully');
       showWelcomehandle();
-      
+      window.location.reload();
 
       // Fetch vendor details
       if (vendorId) {
